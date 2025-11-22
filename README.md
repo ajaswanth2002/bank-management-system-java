@@ -36,10 +36,6 @@ A complete **Java-based banking application** built using **Core Java, JDBC, and
 
 ---
 
-
-
----
-
 ## ⚙️ How to Run
 
 ### 1️⃣ Import Project in Eclipse / IntelliJ
