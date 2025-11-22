@@ -36,26 +36,7 @@ A complete **Java-based banking application** built using **Core Java, JDBC, and
 
 ---
 
-## 📦 Folder Structure  
 
-src/
-└── com.bank
-├── dao/
-│   ├── CustomerDAO.java
-│   ├── AdminDAO.java
-│   └── TransactionDAO.java
-├── dto/
-│   ├── CustomerDetails.java
-│   ├── AdminDetails.java
-│   └── TransactionDetails.java
-├── service/
-│   ├── CustomerService.java
-│   ├── AdminService.java
-│   └── TransactionService.java
-├── exception/
-│   └── CustomerInvalidDataException.java
-└── main/
-└── Main.java
 
 ---
 
@@ -89,8 +70,3 @@ Main.java
 📄 About
 
 Simple Java + JDBC project for learning bank operations, MySQL integration, and CRUD operations.
-
----
-
-✅ **This version will not show everything in one horizontal line.**  
-If you want, I can also format it in an attractive GitHub-style with badges, tables, or add screenshots.
