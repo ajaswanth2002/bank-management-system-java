@@ -39,7 +39,7 @@ The project automatically creates database tables using Hibernate configuration 
 
 ## 📂 Project Folder Structure
 
-📂 BankManagementSystemusingHibernet
+BankManagementSystemusingHibernet
 ├── pom.xml
 ├── README.md
 ├── src
@@ -101,8 +101,13 @@ update
 git clone https://github.com/your-username/bank-management-system.git
 ### Step 2: Configure MySQL Database (`hibernate.cfg.xml`)
 jdbc:mysql://localhost:3306/bankdb
-**username**: root
-**password**: Jaswanth@1234
+username: root
+password: Jaswanth@1234
+### **persistence.xml Settings**
+<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bankdb"/>
+<property name="javax.persistence.jdbc.user" value="root"/>
+<property name="javax.persistence.jdbc.password" value="Jaswanth@1234"/>
+<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 ### Step 3: Build & Run
 mvn clean install
 java -jar target/bank-management-system.jar
@@ -110,16 +115,12 @@ or simply run `Main.java` from your IDE.
 
 ---
 
-## 📺 Sample Console Output
-=========== Bank Management System ===========
-	1.	Create Account
-	2.	Deposit
-	3.	Withdraw
-	4.	Transfer
-	5.	View Account Details
-	6.	Transaction History
-	7.	Exit
-Enter your choice:
+📸 Demo Output
+Welcome to Bank Management System
+1. Admin Login
+2. Customer Login
+3. Exit
+Enter Option:
 
 ---
 
