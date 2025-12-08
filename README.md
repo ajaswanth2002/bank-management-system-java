@@ -84,7 +84,7 @@ BankManagementSystemusingHibernet
     ├── maven-status
     └── test-classes
 ---
-```sh
+
 update
 ## ⚙ Hibernate Configuration Example
 | Option | Description |
