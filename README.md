@@ -101,9 +101,11 @@ update
 ### Step 1: Clone Repository
 git clone https://github.com/your-username/bank-management-system.git
 ### Step 2: Configure MySQL Database (`hibernate.cfg.xml`)
+```
 jdbc:mysql://localhost:3306/bankdb
 username: root
 password: Jaswanth@1234
+```
 ### **persistence.xml Settings**
 <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bankdb"/>
 <property name="javax.persistence.jdbc.user" value="root"/>
