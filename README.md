@@ -38,7 +38,7 @@ The project automatically creates database tables using Hibernate configuration 
 ---
 
 ## 📂 Project Folder Structure
-
+```bash
 BankManagementSystemusingHibernet
 ├── pom.xml
 ├── README.md
@@ -84,6 +84,7 @@ BankManagementSystemusingHibernet
     ├── maven-status
     └── test-classes
 ---
+```sh
 update
 ## ⚙ Hibernate Configuration Example
 | Option | Description |
